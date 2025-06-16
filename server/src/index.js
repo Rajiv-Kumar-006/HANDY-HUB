@@ -1,10 +1,12 @@
 const express = require("express");
 const cors = require("cors");
 require("dotenv").config();
+const DBconnect = require("./config/dbConnection")
 
 const app = express();
 app.use(cors());
 app.use(express.json());
+DBconnect()
 
 app.get("/", (req, res) => {
   res.send("API is running ✅");
