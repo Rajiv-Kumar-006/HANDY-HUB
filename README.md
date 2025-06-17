@@ -74,9 +74,9 @@ A full-stack MERN application where users can hire workers for household service
 ## 💻 Tech Stack
 
 ### Frontend
-- `React.js` / `Vue.js`
+- `React.js`
 - `Tailwind CSS` / `Bootstrap`
-- `Axios`, `React Router` / `Vue Router`
+- `Axios`, `React Router` 
 - Google Maps API / Leaflet.js
 
 ### Backend
